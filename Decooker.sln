@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decooker", "Decooker\Decooker.csproj", "{76D894D2-A324-4F79-A111-9FD186CA202C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{D1EF990C-447B-4396-90C3-0F82B9DEC075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FD89BF15-6EB9-461D-98CF-484223408A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decooker.Tests", "Decooker.Tests\Decooker.Tests.csproj", "{47E03DE9-CE83-4E64-B1B1-059BBBFEB7A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76D894D2-A324-4F79-A111-9FD186CA202C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D894D2-A324-4F79-A111-9FD186CA202C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D894D2-A324-4F79-A111-9FD186CA202C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D894D2-A324-4F79-A111-9FD186CA202C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E03DE9-CE83-4E64-B1B1-059BBBFEB7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E03DE9-CE83-4E64-B1B1-059BBBFEB7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E03DE9-CE83-4E64-B1B1-059BBBFEB7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E03DE9-CE83-4E64-B1B1-059BBBFEB7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76D894D2-A324-4F79-A111-9FD186CA202C} = {D1EF990C-447B-4396-90C3-0F82B9DEC075}
+		{47E03DE9-CE83-4E64-B1B1-059BBBFEB7A6} = {FD89BF15-6EB9-461D-98CF-484223408A91}
+	EndGlobalSection
+EndGlobal
